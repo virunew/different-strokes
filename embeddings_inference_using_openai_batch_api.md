@@ -1,5 +1,4 @@
-🚀 Leveling up our embedding pipeline with batch processing.
-
+ 
 Context
 
 Until now, embeddings for document chunks were created on the fly and pushed into MongoDB + Milvus in real time. While functional, this approach doesn’t scale gracefully when you’re dealing with large volumes of documents or running complex inference tasks.
@@ -43,9 +42,4 @@ To make this work reproducible, I’ve created two guidance files:
 	•	Tips for testing with environment-specific configs before production
 
 The end goal: a scalable, fault-tolerant batch system for both embeddings and inference that can grow with new use cases.
-
-⸻
-
-💡 Curious to hear from others:
-	•	Are you using batch-first approaches for embeddings/inference?
-	•	Or still leaning on real-time APIs for simplicity?
+ 
