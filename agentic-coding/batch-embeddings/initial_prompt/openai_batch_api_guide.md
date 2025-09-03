@@ -2,7 +2,6 @@ Here’s a clean, copy-pasteable plan to run Batch Embeddings with OpenAI. It co
 
 
 
-
 0) One-time setup
 	•	Create an API key and set it as OPENAI_API_KEY in your environment.
 	•	Install the SDK:
